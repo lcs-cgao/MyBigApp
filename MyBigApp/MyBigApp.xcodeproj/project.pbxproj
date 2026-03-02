@@ -6,21 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		20AF03632F55EC5E00D2966A /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF03602F55EC5E00D2966A /* ClockView.swift */; };
-		20AF03642F55EC5E00D2966A /* MyBigAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF03612F55EC5E00D2966A /* MyBigAppApp.swift */; };
-		20AF03652F55EC5E00D2966A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20AF035F2F55EC5E00D2966A /* Assets.xcassets */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		20AF03512F55EB0100D2966A /* MyBigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20AF035F2F55EC5E00D2966A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20AF03602F55EC5E00D2966A /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
-		20AF03612F55EC5E00D2966A /* MyBigAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBigAppApp.swift; sourceTree = "<group>"; };
+		20AF03702F55F01D00D2966A /* MyBigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		20AF03722F55F01D00D2966A /* MyBigApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyBigApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		20AF034E2F55EB0100D2966A /* Frameworks */ = {
+		20AF036D2F55F01D00D2966A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,121 +29,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20AF03482F55EB0100D2966A = {
+		20AF03672F55F01D00D2966A = {
 			isa = PBXGroup;
 			children = (
-				20AF03622F55EC5E00D2966A /* MyBigApp */,
-				20AF03522F55EB0100D2966A /* Products */,
+				20AF03722F55F01D00D2966A /* MyBigApp */,
+				20AF03712F55F01D00D2966A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		20AF03522F55EB0100D2966A /* Products */ = {
+		20AF03712F55F01D00D2966A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20AF03512F55EB0100D2966A /* MyBigApp.app */,
+				20AF03702F55F01D00D2966A /* MyBigApp.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		20AF03622F55EC5E00D2966A /* MyBigApp */ = {
-			isa = PBXGroup;
-			children = (
-				20AF03662F55EC6D00D2966A /* View */,
-				20AF03612F55EC5E00D2966A /* MyBigAppApp.swift */,
-				20AF035F2F55EC5E00D2966A /* Assets.xcassets */,
-				20AF03602F55EC5E00D2966A /* ClockView.swift */,
-			);
-			path = MyBigApp;
-			sourceTree = "<group>";
-		};
-		20AF03662F55EC6D00D2966A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20AF03502F55EB0100D2966A /* MyBigApp */ = {
+		20AF036F2F55F01D00D2966A /* MyBigApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20AF035C2F55EB0300D2966A /* Build configuration list for PBXNativeTarget "MyBigApp" */;
+			buildConfigurationList = 20AF037B2F55F01F00D2966A /* Build configuration list for PBXNativeTarget "MyBigApp" */;
 			buildPhases = (
-				20AF034D2F55EB0100D2966A /* Sources */,
-				20AF034E2F55EB0100D2966A /* Frameworks */,
-				20AF034F2F55EB0100D2966A /* Resources */,
+				20AF036C2F55F01D00D2966A /* Sources */,
+				20AF036D2F55F01D00D2966A /* Frameworks */,
+				20AF036E2F55F01D00D2966A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				20AF03722F55F01D00D2966A /* MyBigApp */,
+			);
 			name = MyBigApp;
 			packageProductDependencies = (
 			);
 			productName = MyBigApp;
-			productReference = 20AF03512F55EB0100D2966A /* MyBigApp.app */;
+			productReference = 20AF03702F55F01D00D2966A /* MyBigApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		20AF03492F55EB0100D2966A /* Project object */ = {
+		20AF03682F55F01D00D2966A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					20AF03502F55EB0100D2966A = {
+					20AF036F2F55F01D00D2966A = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 20AF034C2F55EB0100D2966A /* Build configuration list for PBXProject "MyBigApp" */;
+			buildConfigurationList = 20AF036B2F55F01D00D2966A /* Build configuration list for PBXProject "MyBigApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 20AF03482F55EB0100D2966A;
+			mainGroup = 20AF03672F55F01D00D2966A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 20AF03522F55EB0100D2966A /* Products */;
+			productRefGroup = 20AF03712F55F01D00D2966A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20AF03502F55EB0100D2966A /* MyBigApp */,
+				20AF036F2F55F01D00D2966A /* MyBigApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20AF034F2F55EB0100D2966A /* Resources */ = {
+		20AF036E2F55F01D00D2966A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AF03652F55EC5E00D2966A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20AF034D2F55EB0100D2966A /* Sources */ = {
+		20AF036C2F55F01D00D2966A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20AF03632F55EC5E00D2966A /* ClockView.swift in Sources */,
-				20AF03642F55EC5E00D2966A /* MyBigAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		20AF035A2F55EB0300D2966A /* Debug */ = {
+		20AF03792F55F01F00D2966A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		20AF035B2F55EB0300D2966A /* Release */ = {
+		20AF037A2F55F01F00D2966A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,7 +246,7 @@
 			};
 			name = Release;
 		};
-		20AF035D2F55EB0300D2966A /* Debug */ = {
+		20AF037C2F55F01F00D2966A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		20AF035E2F55EB0300D2966A /* Release */ = {
+		20AF037D2F55F01F00D2966A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -332,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20AF034C2F55EB0100D2966A /* Build configuration list for PBXProject "MyBigApp" */ = {
+		20AF036B2F55F01D00D2966A /* Build configuration list for PBXProject "MyBigApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20AF035A2F55EB0300D2966A /* Debug */,
-				20AF035B2F55EB0300D2966A /* Release */,
+				20AF03792F55F01F00D2966A /* Debug */,
+				20AF037A2F55F01F00D2966A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20AF035C2F55EB0300D2966A /* Build configuration list for PBXNativeTarget "MyBigApp" */ = {
+		20AF037B2F55F01F00D2966A /* Build configuration list for PBXNativeTarget "MyBigApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20AF035D2F55EB0300D2966A /* Debug */,
-				20AF035E2F55EB0300D2966A /* Release */,
+				20AF037C2F55F01F00D2966A /* Debug */,
+				20AF037D2F55F01F00D2966A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 20AF03492F55EB0100D2966A /* Project object */;
+	rootObject = 20AF03682F55F01D00D2966A /* Project object */;
 }
