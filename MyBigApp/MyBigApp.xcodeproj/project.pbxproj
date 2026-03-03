@@ -16,6 +16,8 @@
 		20AF038D2F55F33400D2966A /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF038C2F55F33400D2966A /* InformationView.swift */; };
 		20AF038F2F55F34800D2966A /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF038E2F55F34800D2966A /* SupportView.swift */; };
 		20AF03912F55F8D900D2966A /* ExtractedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF03902F55F8D900D2966A /* ExtractedView.swift */; };
+		20D479CB2F576D73005995EA /* DayTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D479CA2F576D73005995EA /* DayTwoView.swift */; };
+		20D479CD2F5774C1005995EA /* ExtractedView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D479CC2F5774C1005995EA /* ExtractedView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		20AF038C2F55F33400D2966A /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		20AF038E2F55F34800D2966A /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
 		20AF03902F55F8D900D2966A /* ExtractedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedView.swift; sourceTree = "<group>"; };
+		20D479CA2F576D73005995EA /* DayTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTwoView.swift; sourceTree = "<group>"; };
+		20D479CC2F5774C1005995EA /* ExtractedView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		20AF03812F55F02D00D2966A /* MyBigApp */ = {
 			isa = PBXGroup;
 			children = (
+				20D479C92F576D5B005995EA /* DayTwo */,
 				20AF03852F55F2AC00D2966A /* View */,
 				20AF037E2F55F02D00D2966A /* Assets.xcassets */,
 				20AF03802F55F02D00D2966A /* MyBigAppApp.swift */,
@@ -80,6 +85,15 @@
 				20AF03902F55F8D900D2966A /* ExtractedView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		20D479C92F576D5B005995EA /* DayTwo */ = {
+			isa = PBXGroup;
+			children = (
+				20D479CA2F576D73005995EA /* DayTwoView.swift */,
+				20D479CC2F5774C1005995EA /* ExtractedView2.swift */,
+			);
+			path = DayTwo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +174,9 @@
 				20AF038D2F55F33400D2966A /* InformationView.swift in Sources */,
 				20AF03832F55F02D00D2966A /* MyBigAppApp.swift in Sources */,
 				20AF03912F55F8D900D2966A /* ExtractedView.swift in Sources */,
+				20D479CD2F5774C1005995EA /* ExtractedView2.swift in Sources */,
 				20AF038F2F55F34800D2966A /* SupportView.swift in Sources */,
+				20D479CB2F576D73005995EA /* DayTwoView.swift in Sources */,
 				20AF03892F55F31500D2966A /* recentVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
