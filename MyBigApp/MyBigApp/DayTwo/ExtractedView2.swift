@@ -10,10 +10,12 @@ import SwiftUI
 struct ExtractedView2: View {
     let toDoItem: String
     var body: some View {
-        VStack(alignment: .leading){
+        VStack{
             HStack{
                 Text("\(Image(systemName: "circle"))")
+                    .foregroundStyle(.blue)
                 Text(toDoItem)
+                    .font(.title3)
             }
             
                 

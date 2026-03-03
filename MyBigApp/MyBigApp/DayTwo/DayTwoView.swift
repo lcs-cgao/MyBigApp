@@ -10,24 +10,28 @@ import SwiftUI
 struct DayTwoView: View {
     var body: some View {
         NavigationStack{
-            VStack(alignment: .leading){
+            VStack(alignment:.leading){
                 HStack{
                     Text("\(Image(systemName: "magnifyingglass"))")
                     Text("Search")
+                        .font(.title2)
                     Spacer()
                 }
-                .border(.black)
+                .border(.purple)
+                ExtractedView2(
+                    toDoItem: "Smell the flowers",
+                )
+                ExtractedView2(
+                    toDoItem: "Walk along the beach",
+                )
                 HStack{
                     Text("\(Image(systemName: "circle"))")
-                    Text("Smell the flowers")
-                }
-                HStack{
-                    Text("\(Image(systemName: "circle"))")
-                    Text("Smell the flowers")
-                }
-                HStack{
-                    Text("\(Image(systemName: "circle"))")
-                    Text("Smell the flowers")
+                        .foregroundStyle(.blue)
+                    Text("View the waterfalls")
+                        .font(.title3)
+                    Spacer()
+                    Rectangle()
+                        .frame( width:40, height: 40)
                 }
                 Spacer()
                 
